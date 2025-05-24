@@ -21,8 +21,8 @@ To become an elite systems engineer specialized in building **reliable**, **safe
 ├── 02_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
 ├── 03_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
 ├── 04_Rust_Embedded_Systems/           # Low-level Rust, no_std, embedded-hal, Cortex-M
-├── 05_Cybersecurity_Firmware/          # MISRA-C, overflow prevention, firmware signing
-├── 06_Formal_Methods_and_Modeling/     # TLA+, Promela/SPIN, CBMC, model checking
+├── 05_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
+├── 06_Advanced_Topics/       # More advanced topics related to safety critical systems 
 ├── 07_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
 ├── 08_Projects_and_Case_Studies/       # Real-world apps, integration cases
 └── README.md
