@@ -30,3 +30,30 @@
 *.exe
 *.out
 *.app
+
+# Build and binary files
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.a
+*.so
+*.d
+
+
+# Rust (if you use Rust later)
+target/
+
+
+# Logs
+*.log
+
+# Debug
+*.gdb
+*.dbg
+
+# Misc
+*.swp
+*.DS_Store
