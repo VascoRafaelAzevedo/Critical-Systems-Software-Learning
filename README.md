@@ -21,8 +21,8 @@ To become an elite systems engineer specialized in building **reliable**, **safe
 ├── 02_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
 ├── 03_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
 ├── 04_Rust_Embedded_Systems/           # Low-level Rust, no_std, embedded-hal, Cortex-M
-├── 05_Cybersecurity_Firmware/          # MISRA-C, overflow prevention, firmware signing
-├── 06_Formal_Methods_and_Modeling/     # TLA+, Promela/SPIN, CBMC, model checking
+├── 05_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
+├── 06_Advanced_Topics/       # More advanced topics related to safety critical systems 
 ├── 07_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
 ├── 08_Projects_and_Case_Studies/       # Real-world apps, integration cases
 └── README.md
@@ -159,15 +159,6 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 
 ---
 
-## ✅ Final Capstone Projects
-
-1. **Real-Time Sensor Network (STM32 + FreeRTOS + UART logging)**
-2. **Rust Secure Firmware Loader with OTA Simulation**
-3. **POSIX-Based RT Simulation of a Voting System with Verifiable Logs**
-4. **TLA+ Model of a Metro Train System + Working C Implementation**
-
----
-
 ## 🔧 Tools to Learn Along the Way
 
 * GCC, Clang, GDB, CMake, Makefiles
@@ -179,5 +170,3 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 * Rust: Cargo, `no_std`, `panic-halt`, embedded-hal, cortex-m crates
 
 ---
-
-This path is intentionally intensive and industry-aligned. Follow it with discipline, and you'll be able to tackle safety-critical systems at a top-tier level.
