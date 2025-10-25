@@ -72,7 +72,8 @@ int main()
             cout << "Fail!\n";
 
         int x = 2000;
-        int  c7 = x;
+        int 
+         c7 = x;
         if (c7 == 2000)
             cout << "Success!\n";
 
