@@ -7,9 +7,9 @@
 
 ## 🎯 Objective
 
-To become an elite systems engineer specialized in building **reliable**, **safe**, and **secure** embedded and critical software. This repository documents my learning, experimentation, and development process across C, C++, Rust, formal methods, and real-time systems.
+To become a systems software engineer specialized in building **reliable**, **safe**, and **secure** embedded and critical software. This repository documents my learning, experimentation, and development process across C, C++, Rust, formal methods, and real-time systems.
 
-*Aligned with my Master's in Critical Systems Software Engineering + BSc in Software Engineering.*
+*Aligned with a future Master's in Critical Systems Software Engineering + BSc in Software Engineering.*
 
 ---
 
@@ -17,35 +17,28 @@ To become an elite systems engineer specialized in building **reliable**, **safe
 
 ```txt
 .
-├── 01_C_Language_Fundamentals/         # Deep dive into C, pointers, memory, toolchains
+├── 01_Cpp_Language_Fundamentals/       # Deep dive into C++, pointers, memory, toolchains
 ├── 02_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
 ├── 03_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
 ├── 04_Rust_Embedded_Systems/           # Low-level Rust, no_std, embedded-hal, Cortex-M
 ├── 05_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
-├── 06_Advanced_Topics/       # More advanced topics related to safety critical systems 
+├── 06_Advanced_Topics/                 # More advanced topics related to safety critical systems 
 ├── 07_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
 ├── 08_Projects_and_Case_Studies/       # Real-world apps, integration cases
 └── README.md
 ```
 # 🚀 Path to Mastery in Embedded & Critical Systems Software
 
-## 🎯 Objective
-
-To become a highly skilled, industry-ready software engineer in the fields of embedded systems and critical systems (e.g., automotive, aerospace, banking, elections, IoT), using C, C++, Rust, and formal methods, with a strong foundation in real-time and secure software development.
-
----
-
-## STEP 1 — Mastering C for Systems & Embedded Programming
+## STEP 1 — Mastering C++ for Systems
 
 ### 📘 Books:
 
-* *Expert C Programming* – Peter van der Linden
+* *Programming Principles and Practice Using C++* – Bjarne Stroustrup
 * *C Programming: A Modern Approach* – K. N. King
-* *21st Century C* – Ben Klemens
 
 ### 🧪 Exercises:
 
-* Reimplement all standard C library functions from scratch: `strlen`, `strcpy`, `malloc`, `free`, `qsort`, etc.
+* Reimplement standard C library functions from scratch: `strlen`, `strcpy`, `malloc`, `free`, `qsort`, etc.
 * Implement a memory pool allocator
 * Create a full stack-based virtual machine with function calls and memory isolation
 * Write your own `printf` (basic version with formatting)
@@ -59,8 +52,8 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 
 ### 📘 Books:
 
+* *Real-Time Software Design For Embedded Systems – Hassan Gomaa
 * *Making Embedded Systems* – Elecia White
-* *Real-Time Concepts for Embedded Systems* – Qing Li
 
 ### 🧪 Exercises:
 
@@ -76,13 +69,13 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 
 ---
 
-## STEP 3 — Linux Systems Programming & POSIX Multithreading
+## STEP 3 — Linux Systems Programming, Multithreading & Computer Architecture
 
 ### 📘 Books:
 
-* *The Linux Programming Interface* – Michael Kerrisk
 * *Operating Systems: Three Easy Pieces* – Remzi Arpaci-Dusseau
-* *Programming with POSIX Threads* – David Butenhof
+* *Concurrency in Action – Anthony Williams
+* *But How do It Know – J. Clark Scott
 
 ### 🧪 Exercises:
 
@@ -103,7 +96,6 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 
 * *Programming Rust* – Blandy & Orendorff
 * *The Embedded Rust Book* (online)
-* *Rust for Rustaceans* – Jon Gjengset
 
 ### 🧪 Exercises:
 
@@ -165,7 +157,7 @@ To become a highly skilled, industry-ready software engineer in the fields of em
 * Git, GitHub Actions, Jenkins
 * Static analyzers: `cppcheck`, `clang-tidy`, Frama-C
 * Formal tools: TLA+, CBMC, SPARK/Ada (optional)
-* Embedded: STM32CubeIDE, VSCode, probe-rs, OpenOCD
+* Embedded: STM32CubeIDE, VSCode PlatformIO, probe-rs, OpenOCD
 * Linux: strace, lsof, perf, valgrind, gprof, systemd
 * Rust: Cargo, `no_std`, `panic-halt`, embedded-hal, cortex-m crates
 

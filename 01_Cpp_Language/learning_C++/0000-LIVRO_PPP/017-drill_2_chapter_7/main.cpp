@@ -24,8 +24,7 @@ namespace Y
 
 
 
-namespace Z
-
+namespace Zr
 {
     int var;
 
