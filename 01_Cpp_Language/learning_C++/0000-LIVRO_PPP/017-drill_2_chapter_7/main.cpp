@@ -1,7 +1,6 @@
 #include <iostream>
 
-namespace X 
-{
+namespace X {
     int var;
 
     void print(){
@@ -24,7 +23,7 @@ namespace Y
 
 
 
-namespace Zr
+namespace Z
 {
     int var;
 
