@@ -1,3 +1,4 @@
+#include <ios>
 #include <iostream>
 #include <iomanip>
 
@@ -50,7 +51,6 @@ int main(){
     std::cout << std::endl;
     std::cout << "Formatted table : " << std::endl;
     
-    std::cout << std:w(10):set <<  "Lastname"  << std::setw(10) << "Firstname" << std::setw(5) << "Age" << std::endl;
     std::cout << std::setw(10) << "Daniel"  << std::setw(10) << "Gray" << std::setw(5) << "25" << std::endl;
     std::cout << std::setw(10) << "Stanley" << std::setw(10)  << "Woods" << std::setw(5) <<  "33" << std::endl;
     std::cout << std::setw(10) <<  "Jordan" << std::setw(10)  << "Parker" << std::setw(5) << "45" << std::endl;
@@ -273,8 +273,8 @@ int main(){
 
     std::cout << std::endl;
     std::cout << "double values (back to defaults) : " << std::endl;
-    std::cout.unsetf(std::ios::scientific | std::ios::fixed); // Hack
-    std::cout << "a : " << a << std::endl;
+    //std::cout.unsetf(std::ios::scientific | std::ios::fixed); // Hack NO LONGER NEEDED
+    std::cout << std::defaultfloat << "a : " << a << std::endl;
     std::cout << "b : " << b << std::endl;
     std::cout << "c : " << c << std::endl;
     
