@@ -1,13 +1,13 @@
-# 🧠 Critical Systems Engineering Journey
+# Low Level Software Journey
 
-> **My personal path to mastering real-time, embedded, and high-assurance software.**  
-> Focused on safety-critical systems for aerospace ✈️, automotive 🚗, medical 🏥, finance 💰, and beyond.
+> **My personal path to real-time, embedded, and high-assurance software.**  
+> Focused on safety-critical systems for aerospace ✈️, automotive 🚗, medical 🏥, and beyond.
 
 ---
 
 ## 🎯 Objective
 
-To become a systems software engineer specialized in building **reliable**, **safe**, and **secure** embedded and critical software. This repository documents my learning, experimentation, and development process across C, C++, Rust, formal methods, and real-time systems.
+To become a software engineer specialized in building **reliable**, **safe**, and **secure** software. This repository documents my learning, experimentation, and development process across C, C++, Rust, formal methods, and real-time systems.
 
 *Aligned with a future Master's in Critical Systems Software Engineering + BSc in Software Engineering.*
 
@@ -20,35 +20,54 @@ To become a systems software engineer specialized in building **reliable**, **sa
 ├── 01_Cpp_Language_Fundamentals/       # Deep dive into C++, pointers, memory, toolchains
 ├── 02_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
 ├── 03_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
-├── 04_Rust_Embedded_Systems/           # Low-level Rust, no_std, embedded-hal, Cortex-M
+├── 04_Rust/                            # Low-level Rust, no_std, embedded-hal, Cortex-M
 ├── 05_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
 ├── 06_Advanced_Topics/                 # More advanced topics related to safety critical systems 
 ├── 07_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
-├── 08_Projects_and_Case_Studies/       # Real-world apps, integration cases
 └── README.md
 ```
-# 🚀 Path to Mastery in Embedded & Critical Systems Software
+# 🚀 Path to Embedded & Critical Systems Software
 
-## STEP 1 — Mastering C++ for Systems
+## STEP 1 — Mastering C++ 
 
 ### 📘 Books:
 
 * *Programming Principles and Practice Using C++* – Bjarne Stroustrup
-* *C Programming: A Modern Approach* – K. N. King
+* *C++ Concurrency in Action* - Anthony Williams
+* *C++ Lambda Story* - Bartłomiej Filipek
 
 ### 🧪 Exercises:
 
-* Reimplement standard C library functions from scratch: `strlen`, `strcpy`, `malloc`, `free`, `qsort`, etc.
+* Reimplement standard C library functions from scratch: `std::string`, `std::vector`, etc.
 * Implement a memory pool allocator
 * Create a full stack-based virtual machine with function calls and memory isolation
 * Write your own `printf` (basic version with formatting)
-* Build linked list, binary tree, hash map, ring buffer from scratch (no `stdlib.h`)
-* Implement your own shell with job control and background tasks
+* Build linked list, binary tree, hash map, ring buffer from scratch
 * Parse and execute a simple scripting language (recursive descent parser)
+
+
+## STEP 2 — Linux Systems Programming, Multithreading & Computer Architecture
+
+### 📘 Books:
+
+* *Operating Systems: Three Easy Pieces* – Remzi Arpaci-Dusseau
+* *But How do It Know – J. Clark Scott
+
+### 🧪 Exercises:
+
+* Write a shell that handles pipes, redirection, and signals (SIGINT, SIGCHLD)
+* Create a multi-process producer-consumer pipeline using shared memory + semaphores
+* Implement a thread pool with task queue and dynamic scaling
+* Implement your own shell with job control and background tasks
+* Write a file watcher using inotify API that logs changes
+* Simulate a job scheduler using message queues and forked worker processes
+* Use `mmap` to share data between unrelated processes
+* Write a system that simulates an airport boarding system with mutex-protected zones
+* Profile and analyze performance with `perf`, `valgrind`, and `gprof`
 
 ---
 
-## STEP 2 — Embedded Systems & Real-Time Operating Systems (RTOS)
+## STEP 3 — Embedded Systems & Real-Time Operating Systems (RTOS)
 
 ### 📘 Books:
 
@@ -69,44 +88,12 @@ To become a systems software engineer specialized in building **reliable**, **sa
 
 ---
 
-## STEP 3 — Linux Systems Programming, Multithreading & Computer Architecture
+## STEP 4 — Rust
 
 ### 📘 Books:
 
-* *Operating Systems: Three Easy Pieces* – Remzi Arpaci-Dusseau
-* *Concurrency in Action – Anthony Williams
-* *But How do It Know – J. Clark Scott
-
-### 🧪 Exercises:
-
-* Write a shell that handles pipes, redirection, and signals (SIGINT, SIGCHLD)
-* Create a multi-process producer-consumer pipeline using shared memory + semaphores
-* Implement a thread pool with task queue and dynamic scaling
-* Write a file watcher using inotify API that logs changes
-* Simulate a job scheduler using message queues and forked worker processes
-* Use `mmap` to share data between unrelated processes
-* Write a system that simulates an airport boarding system with mutex-protected zones
-* Profile and analyze performance with `perf`, `valgrind`, and `gprof`
-
----
-
-## STEP 4 — Rust for Embedded & Safety-Critical Code
-
-### 📘 Books:
-
-* *Programming Rust* – Blandy & Orendorff
-* *The Embedded Rust Book* (online)
-
-### 🧪 Exercises:
-
-* Blink LED using Rust on STM32 (via `cortex-m-rt`, `embedded-hal`, `probe-rs`)
-* Write a panic-safe abstraction over hardware pins
-* Implement a basic serial protocol with CRC validation
-* Create a sensor reading system with log and alarm conditions
-* Port FreeRTOS task concepts to async Rust tasks
-* Use `unsafe` Rust to interface with memory-mapped registers — and wrap safely
-* Build a watchdog timer system with safe + recoverable panic modes
-* Embed Rust FFI module into a C project and vice versa
+* The Rust Programing Language* – Blandy & Orendorff
+* *Zero To Production In Rust* - Luca Palmieri
 
 ---
 
