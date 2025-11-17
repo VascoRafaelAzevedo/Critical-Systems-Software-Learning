@@ -1,0 +1,6 @@
+{
+    "clangd.onConfigChanged": "ignore",
+    "clangd.arguments": [],
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.errorSquiggles": "enabled"
+}

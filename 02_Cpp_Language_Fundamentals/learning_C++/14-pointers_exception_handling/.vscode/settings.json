@@ -1,0 +1,22 @@
+{
+    // Desativa shell integration para não interferir com Zsh minimal
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    // Cria um perfil Linux chamado "Zsh Clean" que usa o teu .zshrc minimal
+    "terminal.integrated.profiles.linux": {
+        "Zsh Clean": {
+            "path": "/usr/bin/zsh",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "ZDOTDIR": "/home/vasco/.zsh_vscode"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "Zsh Clean",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
