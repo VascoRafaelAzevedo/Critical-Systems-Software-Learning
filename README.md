@@ -17,13 +17,14 @@ To become a software engineer specialized in building **reliable**, **safe**, an
 
 ```txt
 .
-├── 01_Cpp_Language_Fundamentals/       # Deep dive into C++, pointers, memory, toolchains
-├── 02_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
-├── 03_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
-├── 04_Rust/                            # Low-level Rust, no_std, embedded-hal, Cortex-M
-├── 05_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
-├── 06_Advanced_Topics/                 # More advanced topics related to safety critical systems 
-├── 07_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
+├── 01_C_Language/                      # Deep dive into C, pointers, memory, toolchains, etc.
+├── 02_Cpp_Language_Fundamentals/       # Dive into C++, pointers, memory, toolchains
+├── 03_Embedded_Systems_RTOS/           # Bare-metal + RTOS: FreeRTOS, Zephyr, STM32, etc.
+├── 04_Concurrency_and_IPC/             # POSIX threads, semaphores, pipes, shared memory
+├── 05_Rust/                            # Low-level Rust, no_std, embedded-hal, Cortex-M
+├── 06_Safety_Verification              # MISRA-C, overflow prevention, firmware signing
+├── 07_Advanced_Topics/                 # More advanced topics related to safety critical systems 
+├── 08_Standards_and_Safety_Docs/       # DO-178C, ISO 26262, IEC 61508, FAA/EASA docs
 └── README.md
 ```
 # 🚀 Path to Embedded & Critical Systems Software
