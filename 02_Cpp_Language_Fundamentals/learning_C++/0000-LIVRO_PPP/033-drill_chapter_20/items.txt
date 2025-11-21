@@ -1,0 +1,10 @@
+Laptop 1001 999.99
+Mouse 1002 25.50
+Keyboard 1003 75.00
+Monitor 1004 299.99
+Headphones 1005 149.99
+Webcam 1006 89.99
+Desk 1007 199.99
+Chair 1008 249.99
+Lamp 1009 45.00
+Cable 1010 12.99
