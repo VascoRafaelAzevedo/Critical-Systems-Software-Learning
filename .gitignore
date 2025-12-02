@@ -57,3 +57,7 @@ target/
 # Misc
 *.swp
 *.DS_Store
+
+# Large PDF files and books
+*.pdf
+*.PDF
