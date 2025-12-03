@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = [
+    "cargo_hello",
+    "guessing_game",
+    "learning_rust/first_small_project",
+    "learning_rust/function",
+    "learning_rust/guess",
+    "learning_rust/hello",
+    "ownership_test",
+    "test_expression",
+    "test_tupple",
+    "variables",
+]
